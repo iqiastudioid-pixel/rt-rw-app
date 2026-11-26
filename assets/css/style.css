@@ -1,0 +1,29 @@
+
+/* =================================
+   RT/RW APP - GLOBAL STYLES
+   ================================= */
+
+:root {
+  --color-primary: #2563eb;
+  --color-text: #1f2937;
+  --color-background: #f9fafb;
+  --color-white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
